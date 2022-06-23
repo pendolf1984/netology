@@ -29,5 +29,5 @@
 ### Задание 3. 
 
 #### Назовите по два DEB и RPM дистрибутива.
-DEB: Ubuntu, Debian
+DEB: Ubuntu, Debian 
 RPM: CentOS, Red Hat
