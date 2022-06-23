@@ -36,5 +36,5 @@
 #### Назовите по два DEB и RPM дистрибутива.
 
 #### Ответ:
-DEB: Ubuntu, Debian  
-RPM: CentOS, Red Hat
+**DEB**: Ubuntu, Debian  
+**RPM**: CentOS, Red Hat
