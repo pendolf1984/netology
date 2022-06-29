@@ -1,8 +1,9 @@
 # Задание 1.
 *Сделайте скриншот консоли, где в строке ввода будет ваше ФИО.*
 
-![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/1.png)
+# Ответ
 
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/1.png)
 
 ---
 
@@ -16,6 +17,8 @@
 информацию о дистрибутиве.  
 *Сделайте скриншот так, чтобы был виден вывод всех команд, вставьте в документ с ДЗ.*
 
+# Ответ
+
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/2.png)
 
 
@@ -28,6 +31,8 @@
 Выведите на экран содержимое домашнего каталога, включая права на файлы, скрытые и системные файлы.  
 
 *Сделайте скриншот, вставьте в документ с ДЗ.*
+
+# Ответ
 
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/3.png)
 
@@ -45,6 +50,8 @@
 
 *Пришлите получившуюся команду.*  
 
+# Ответ
+
 ```mv burmistrov2.2 burmistrov2.2-`date +%F`;touch burmistrov2.2-`date +%F`/concept.1; cat /etc/os-release > burmistrov2.2-`date +%F`/concept.1;echo Burmistrov Oleg >> burmistrov2.2-`date +%F`/concept.1;echo 2.2 >> burmistrov2.2-`date +%F`/concept.1;grep "Burmistrov Oleg" burmistrov2.2-`date +%F`/concept.1```
 
 ---
@@ -58,7 +65,10 @@
 
 Удалите оригинальный файл. Выведите на экран содержимое созданного вами каталога.  
 
-Сделайте скриншот, вставьте в документ с ДЗ.  
+*Сделайте скриншот, вставьте в документ с ДЗ.*
+
+# Ответ
+
 
 ---
 
