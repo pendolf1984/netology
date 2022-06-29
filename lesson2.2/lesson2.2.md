@@ -1,7 +1,7 @@
 # Задание 1.
 *Сделайте скриншот консоли, где в строке ввода будет ваше ФИО.*
 
-# Ответ
+# Ответ:
 
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/1.png)
 
@@ -17,7 +17,7 @@
 информацию о дистрибутиве.  
 *Сделайте скриншот так, чтобы был виден вывод всех команд, вставьте в документ с ДЗ.*
 
-# Ответ
+# Ответ:
 
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/2.png)
 
@@ -32,7 +32,7 @@
 
 *Сделайте скриншот, вставьте в документ с ДЗ.*
 
-# Ответ
+# Ответ:
 
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/3.png)
 
@@ -50,7 +50,7 @@
 
 *Пришлите получившуюся команду.*  
 
-# Ответ
+# Ответ:
 
 ```mv burmistrov2.2 burmistrov2.2-`date +%F`;touch burmistrov2.2-`date +%F`/concept.1; cat /etc/os-release > burmistrov2.2-`date +%F`/concept.1;echo Burmistrov Oleg >> burmistrov2.2-`date +%F`/concept.1;echo 2.2 >> burmistrov2.2-`date +%F`/concept.1;grep "Burmistrov Oleg" burmistrov2.2-`date +%F`/concept.1```
 
@@ -67,7 +67,7 @@
 
 *Сделайте скриншот, вставьте в документ с ДЗ.*
 
-# Ответ
+# Ответ:
 ```sudo ln -s /home/burmistrov/burmistrov2.2-2022-06-29 /opt/burmistrov2.2_new```  
 ```sudo cp /opt/burmistrov2.2_new/concept.1 /opt/burmistrov2.2_new/concept.1.old```  
 ```sudo rm /opt/burmistrov2.2_new/concept.1```  
@@ -85,7 +85,7 @@
 
 *Сделайте скриншот, вставьте в документ с ДЗ*
 
-# Ответ
+# Ответ:
 ```sudo apt update```  
 ```sudo apt upgrade -y```  
 ```sudo apt install -y mc vim```  
@@ -98,5 +98,5 @@
 Установите на виртуальную машину Arch Linux. Установите программу neofetch. Выполните на ней задание 2 (воспользуйтесь neofetch для вывода информации о системе).  
 *Сделайте скриншот информации о системе, выведенной с помощью neofetch.*
 
-# Ответ
-![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/7.PNG)
+# Ответ:
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/7.png)
