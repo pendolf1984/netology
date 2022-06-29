@@ -29,6 +29,8 @@
 
 *Сделайте скриншот, вставьте в документ с ДЗ.*
 
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/3.png)
+
 ---
 
 # Задание 4.
