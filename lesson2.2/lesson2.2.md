@@ -68,9 +68,9 @@
 *Сделайте скриншот, вставьте в документ с ДЗ.*
 
 # Ответ
-```sudo ln -s /home/burmistrov/burmistrov2.2-2022-06-29 /opt/burmistrov2.2_new```
-```cp /opt/burmistrov2.2_new/concept.1 /opt/burmistrov2.2_new/concept.1.old```
-```rm /opt/burmistrov2.2_new/concept.1```
+```sudo ln -s /home/burmistrov/burmistrov2.2-2022-06-29 /opt/burmistrov2.2_new```  
+```cp /opt/burmistrov2.2_new/concept.1 /opt/burmistrov2.2_new/concept.1.old```  
+```rm /opt/burmistrov2.2_new/concept.1```  
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/5.png)
 
 ---
