@@ -99,4 +99,4 @@
 *Сделайте скриншот информации о системе, выведенной с помощью neofetch.*
 
 # Ответ
-![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/Arch.PNG)
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/7.PNG)
