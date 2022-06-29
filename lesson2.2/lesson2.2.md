@@ -29,7 +29,7 @@
 
 *Сделайте скриншот, вставьте в документ с ДЗ.*
 
-```mv burmistrov2.2 burmistrov2.2-`date +%F`;touch burmistrov2.2-`date +%F`/concept.1; cat /etc/os-release > burmistrov2.2-`date +%F`/concept.1;echo Burmistrov Oleg >> burmistrov2.2-`date +%F`/concept.1;echo 2.2 >> burmistrov2.2-`date +%F`/concept.1;grep "Burmistrov Oleg" burmistrov2.2-`date +%F`/concept.1```
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/3.png)
 
 ---
 
@@ -44,6 +44,8 @@
 Выведите на экран строку с вашей фамилией. Выполните все в одну строку.  
 
 *Пришлите получившуюся команду.*  
+
+```mv burmistrov2.2 burmistrov2.2-`date +%F`;touch burmistrov2.2-`date +%F`/concept.1; cat /etc/os-release > burmistrov2.2-`date +%F`/concept.1;echo Burmistrov Oleg >> burmistrov2.2-`date +%F`/concept.1;echo 2.2 >> burmistrov2.2-`date +%F`/concept.1;grep "Burmistrov Oleg" burmistrov2.2-`date +%F`/concept.1```
 
 ---
 
