@@ -69,8 +69,8 @@
 
 # Ответ
 ```sudo ln -s /home/burmistrov/burmistrov2.2-2022-06-29 /opt/burmistrov2.2_new```  
-```cp /opt/burmistrov2.2_new/concept.1 /opt/burmistrov2.2_new/concept.1.old```  
-```rm /opt/burmistrov2.2_new/concept.1```  
+```sudo cp /opt/burmistrov2.2_new/concept.1 /opt/burmistrov2.2_new/concept.1.old```  
+```sudo rm /opt/burmistrov2.2_new/concept.1```  
 
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/5.png)
 
@@ -86,9 +86,9 @@
 *Сделайте скриншот, вставьте в документ с ДЗ*
 
 # Ответ
-```apt update```  
-```apt upgrade -y```  
-```apt install -y mc vim```  
+```sudo apt update```  
+```sudo apt upgrade -y```  
+```sudo apt install -y mc vim```  
 
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.2/6.png)
 
