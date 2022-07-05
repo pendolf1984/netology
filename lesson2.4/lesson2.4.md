@@ -42,3 +42,9 @@
 *Примечание: при выполнении задания предполагается использование конструкции "{команда} | grep {параметр для фильрации вывода}"*
 
 # Ответ:
+1) ```lscpu | grep Architecture```  
+2) ```cat /proc/cpuinfo | grep "model name"```  
+3) ```cat /proc/meminfo | grep Inactive```  
+
+---
+
