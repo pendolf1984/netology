@@ -64,6 +64,7 @@
 ![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson2.4/4.1.PNG)  
 ![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson2.4/4.4.PNG)  
 ![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson2.4/4.5.PNG)  
+![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson2.4/4.6.PNG)  
 
 
 
