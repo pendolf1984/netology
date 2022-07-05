@@ -66,6 +66,20 @@
 ![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson2.4/4.5.PNG)  
 ![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson2.4/4.6.PNG)  
 
+---
+
+# Задание 5*
+
+Найдите информацию про tmpfs.
+
+*Расскажите в свободной форме, в каких случаях уместно использовать эту технологию.*
+
+Создайте диск `tmpfs` (размер выберите исходя из объёма ОЗУ на ПК: 512Мб-1Гб), смонтируйте его в директорию `/mytmpfs`.
+
+*В качестве ответа приведите скрин вывода команды df- h до и после монтирования диска tmpfs.*  
+
+# Ответ:
+![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson2.4/5.PNG)  
 
 
 
