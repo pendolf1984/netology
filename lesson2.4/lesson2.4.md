@@ -61,7 +61,19 @@
 *В качестве ответа приложите созданные скриншоты*
 
 # Ответ:
-1) 
+![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson2.4/4.1.PNG)  
+
+
+
+
+
+
+
+
+   
+   
+
+
 
 
 
