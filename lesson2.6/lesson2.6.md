@@ -28,5 +28,5 @@
 *В качестве ответа приложите скриншоты, на которых было бы видно разметку диска(например, командами lsblk -a; fdisk -l)*
 
 # Ответ:
-
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/1.PNG)
 
