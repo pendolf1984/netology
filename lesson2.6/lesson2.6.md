@@ -38,7 +38,29 @@
 *В качестве ответа приложите скриншот вывода команды mdadm -D /dev/md0, где md0 - это название вашего рейд массива(может быть любым).*  
 
 # Ответ:  
-![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/2.PNG)
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/2.PNG)  
+
+---
+
+# Задание 5
+* Сделайте скриншоты вывода комманд df -h, pvs, lvs, vgs;  
+* подключите к ОС 2 новых диска;  
+* создайте новую VG, добавьте в него 1 диск;  
+* создайте 2 LV, распределите доступное пространство между ними поровну;  
+* создайте на обоих томах файловую систему xfs;  
+* создайте две точки монтирования и смонтируйте каждый из томов;  
+* сделайте скриншот вывода комманд df -h;  
+* добавьте в VG второй оставшийся диск;  
+* расширьте первый LV на объем нового диска;  
+* расширьте файловую систему на размер нового доступного пространства;  
+* сделайте скриншоты вывода комманд df -h, pvs, lvs, vgs.  
+*В качестве ответа приложите созданные скриншоты и скриншоты выполнения.*  
+
+# Ответ:
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/3.PNG)  
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/4.PNG)  
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/5.PNG)  
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/6.PNG)  
 
 
 
