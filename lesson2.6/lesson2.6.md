@@ -30,3 +30,15 @@
 # Ответ:
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/1.PNG)
 
+---
+
+# Задание 4  
+Создайте программный RAID 1 в вашей ОС используя программу mdadm.  
+Демонстрация работы утилиты была на лекции. Объем RAID неважен.  
+*В качестве ответа приложите скриншот вывода команды mdadm -D /dev/md0, где md0 - это название вашего рейд массива(может быть любым).*  
+
+# Ответ:  
+![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/2.PNG)
+
+
+
