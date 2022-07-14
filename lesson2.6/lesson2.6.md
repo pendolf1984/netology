@@ -60,7 +60,7 @@
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/3.PNG)  
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/4.PNG)  
 ![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/5.PNG)  
-![ScreenShot](https://github.com/pendolf1984/netology/blob/main/lesson2.6/6.PNG)  
+
 
 
 
