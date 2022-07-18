@@ -17,5 +17,5 @@
 * Нет, это не один и тот же файл. Inode разные  
 * Нет, это не один и тот же файл. Inode разные  
 * Да, это один и тот же файл. Inode одинаковые  
-* 
+![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson2.7/1.PNG)
 
