@@ -19,3 +19,14 @@
 * Да, это один и тот же файл. Inode одинаковые  
 ![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson2.7/1.PNG)
 
+---
+
+# Задание 2  
+* Создайте файл ~/netology.  
+* Создайте каталог ~/netology/.  
+* Поместите файл netology в каталог netology.  
+*Какое(ие) из трех действий выполнить невозможно? Почему?*  
+
+# Ответ:  
+
+
