@@ -16,4 +16,8 @@
 *В качестве ответа приложите скриншот вывода команды.*
 
 # Ответ:  
-![Screenshot]()
+![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson2.8/1.PNG)  
+
+---
+
+
