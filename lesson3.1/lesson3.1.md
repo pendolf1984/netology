@@ -84,6 +84,6 @@ DEB:
 
 Верните настройки к предыдущим значениям.  
 
-Ответ:  
-![Screenshot]()  
-![Screenshot]()
+# Ответ:  
+![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson3.1/1.PNG)  
+![Screenshot](https://github.com/pendolf1984/netology/blob/main/lesson3.1/2.PNG)
