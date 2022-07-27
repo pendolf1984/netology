@@ -42,19 +42,26 @@
 # Ответ:  
 **3.1**  
 Для RPM:  
-'''yum list installed|grep mc'''  
-'''repoquery -i mc'''  
+`yum list installed | grep mc`  
+`repoquery -i mc`  
 Для DEB:  
-'''apt policy mc'''  
+`apt policy mc` 
 
 **3.2**  
 RPM:  
-'''yum repolist'''  
-'''ls /et/yum.repos.d/'''  
+`yum repolist`  
+`ls /et/yum.repos.d/`   
 DEB:  
-'''apt policy'''  
-'''cat /etc/apt/sources.list'''  
+`apt policy`  
+`cat /etc/apt/sources.list`  
 
+**3.3**  
+Версия ОС:  
+`cat /etc/os-release | grep VERSION`  
+Версия ядра:  
+`uname -a`  
 
+**3.4**  
+`sudo cat /proc/1/comm`  
 
 ---
