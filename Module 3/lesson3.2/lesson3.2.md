@@ -74,7 +74,7 @@ xsane-common
 # Ответ:  
 ![Screentshot](4.PNG)  
 
-![Screentshot](4_1.PNG)  
+![Screentshot](5.PNG)  
 
 ---
 
