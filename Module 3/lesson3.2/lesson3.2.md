@@ -50,6 +50,19 @@
 исполняемых файлов установленного ПО.*
 
 # Ответ: 
+`sudo apt search htop && sudo apt install -y htop`  
+
+ Htop требует следующие зависисмости: 
+exfalso fonts-font-awesome fonts-lato gimp-data gir1.2-gtksource-3.0 gir1.2-keybinder-3.0 libamd2 libbabl-0.1-0 libcamd2 libccolamd2 libcholmod3 libgegl-0.4-0 libgegl-common libgimp2.0 libjs-jquery
+libjs-sphinxdoc libjs-underscore libmetis5 libumfpack5 python3-feedparser python3-musicbrainzngs python3-mutagen python3-pyinotify quodlibet sphinx-rtd-theme-common system-config-printer xsane
+xsane-common  
+
+![Screentshot](3.PNG)
+
+
+
+
+
 
 
 
