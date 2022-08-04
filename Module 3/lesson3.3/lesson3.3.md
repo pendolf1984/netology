@@ -20,7 +20,7 @@ phpsessionclean.service, apache2.service, colord.service
 
 # Ответ:  
 
-`journalctl -k -S 2022-08-03`  
+`journalctl -k --since "yesterday" -p err`  
 
 ---
 
