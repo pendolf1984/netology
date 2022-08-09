@@ -18,7 +18,7 @@
 *Приведите ответ в виде снимков экрана.*
 
 # Ответ:  
-![Screenshot](2.png)  
+![Screenshot](https://github.com/pendolf1984/netology/blob/main/Module%203/lesson3.4/2.PNG)  
 
 ---
 
@@ -49,7 +49,7 @@
 *Приведите ответ в виде снимков экрана.*  
 
 # Ответ:  
-![Screenshot](4.png)  
+![Screenshot](https://github.com/pendolf1984/netology/blob/main/Module%203/lesson3.4/4.PNG)  
 
 ---
 
@@ -60,4 +60,4 @@
 *Приведите ответ в виде снимков экрана.*  
 
 # Ответ:  
-![Screenshot](5.png) 
+![Screenshot](https://github.com/pendolf1984/netology/blob/main/Module%203/lesson3.4/5.PNG)  
