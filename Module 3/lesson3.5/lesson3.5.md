@@ -37,6 +37,15 @@
 *Приведите ответ в виде снимков экрана.*
 
 # Ответ:  
+`atop -m -d -c`  
+
+![Screenshot](9.PNG)  
+
+![Screenshot](10.PNG)  
+
+![Screenshot](11.PNG)  
+
+![Screenshot](12.PNG)
 
 ---  
 
@@ -71,4 +80,3 @@
 ![Screenshot](8.PNG)  
 
 ---
-
