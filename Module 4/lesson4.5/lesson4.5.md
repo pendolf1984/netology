@@ -19,9 +19,9 @@
 # Ответ:
 
 ---
-![pic1](1.png)  
-![pic2](2.png)  
-![pic3](3.png)  
-![pic4](4.PNG)  
-![pic5](5.PNG)  
-![pic6](8.PNG)  
+![pic1](1.png "Настройки интерфейсов и таблица маршрутизации vm1")  
+![pic2](2.png "Ping to vm2")  
+![pic3](3.png "Настройки интерфейсов и таблица маршрутизации vm2")  
+![pic4](4.PNG "Ping to vm1")  
+![pic5](5.PNG "Ping to 8.8.8.8")  
+![pic6](8.PNG "Параметры iptables")  
