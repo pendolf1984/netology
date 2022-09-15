@@ -19,3 +19,9 @@
 # Ответ:
 
 ---
+![pic1](1.png)  
+![pic2](2.png)  
+![pic3](3.png)  
+![pic4](4.PNG)  
+![pic5](5.PNG)  
+![pic6](8.PNG)  
