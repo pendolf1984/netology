@@ -25,7 +25,7 @@
 <table>
 <tr><th>src local IP:port</th><th>src global IP:port</th><th>dst IP</th><th>protocol</th></tr>  
 <tr><td>10.0.0.2:1111</td><td>93.15.10.2:2222</td><td>1.1.1.1:80</td><td>tcp</td></tr>
-</table>>
+</table>
 
 Применив знания по установке TCP сессий, ответьте на вопросы:
 
