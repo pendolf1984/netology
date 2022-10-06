@@ -25,7 +25,8 @@
 `sudo openssl req -x509 -nodes -newkey rsa:4096 -keyout /etc/nginx/cert.key -out /etc/nginx/cert.pem -days 365`  
 
 3. Отредактируйте модуль http в файле /etc/nginx/nginx.conf.
-```http {
+```
+http {
     gzip on;
     server {
         listen 80 default_server;
