@@ -5,6 +5,8 @@
 
 # Ответ:  
 
+[script1](script1.sh)  
 
+![pic1](1.PNG)
 
 ---
