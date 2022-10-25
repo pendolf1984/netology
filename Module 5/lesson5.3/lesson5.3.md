@@ -160,5 +160,16 @@ http {
 *Пришлите скриншоты со скриптами и демонстрацией их работы*  
 
 # Ответ:  
+* `ps aux | awk '{print $1}' | sort -n | uniq -c`  
+
+![pic1](1.PNG)  
+
+* `ps aux --sort pid| awk '{print $2}'|tail -n 1`    
+
+![pic2](2.PNG)  
+
+
+ 
+
 
 
