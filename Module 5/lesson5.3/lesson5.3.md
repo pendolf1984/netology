@@ -168,8 +168,9 @@ http {
 
 ![pic2](2.PNG)  
 
+* `ps aux | awk '{sum += $4} END {print sum}'`  
 
- 
+![pic3](3.PNG)
 
 
 
