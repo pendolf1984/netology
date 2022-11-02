@@ -34,11 +34,14 @@ elif [[ ($HOSTS -gt 255)||($HOSTS -eq 0)||($HOSTS =~ "^[0-9]+$") ]]; then
        exit 1
 fi
 
-for SUBNET in $SUBNETS
+trap 'echo "Exit (Ctrl-C)"; exit 1' 2
+
+for ((SUBNET=0; SUBNET<=SUBNETS; SUBNET++))
 do
-        for HOST in $HOSTS
+        for ((HOST=1; HOST<=HOSTS; HOST++))
         do
                 echo "[*] IP : ${PREFIX}.${SUBNET}.${HOST}"
                 arping -c 3 -I "$INTERFACE" "${PREFIX}.${SUBNET}.${HOST}" 2> /dev/null
         done
 done
+
