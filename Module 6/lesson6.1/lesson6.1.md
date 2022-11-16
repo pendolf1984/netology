@@ -78,7 +78,7 @@
 
 # Ответ:  
 ![pic1](1.png)  
-![pic2](2.png)  
+![pic2](2.PNG)  
 
 1. Можно выбрать: Ubuntu, CentOS, Debian, SLES, Fedora, SLES for SAP, openSUSE Leap, Fedora CoreOS, AlmaLinux,
 Astra Linux, РедОС, Альт
@@ -86,8 +86,8 @@ Astra Linux, РедОС, Альт
 параметры сети, внешний адрес
 3. Установка агента для передача данных в Yandex Monitoring и сбора логов в Cloud Logging
 4. Защита от DDOS
-5. ![pic3](3.png)  
-![pic4](4.png)  
+5. ![pic3](3.PNG)  
+![pic4](4.PNG)  
 
 ---
 
@@ -101,7 +101,7 @@ Astra Linux, РедОС, Альт
 *Приложите скриншот.*  
 
 # Ответ:  
-![pic5](5.png)  
+![pic5](5.PNG)  
 
 
 
