@@ -89,3 +89,14 @@ https://dl-cdn.alpinelinux.org/alpine/v3.13/releases/x86/alpine-standard-3.13.5-
 *Приложите скриншоты действий.*  
 
 # Ответ:  
+![pic_ext3](ext3.PNG)  
+
+![pic_ext4](ext4.PNG)  
+
+![pic_ext5](ext5.PNG)  
+
+![pic_ext6](ext6.PNG)  
+
+![pic_ext7](ext7.PNG)  
+
+![pic_ext8](ext8.PNG)  
