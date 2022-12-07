@@ -50,4 +50,48 @@ spec:
 ![pic2](2.PNG)  
 
 
+---
 
+# Задание 3
+1. Ознакомьтесь с документацией по подключению volume типа hostPath.
+2. Дополните деплоймент в чарте подключением этого volume.
+3. Запишите что-нибудь в файл на сервере, подключившись к поду с помощью kubectl exec, проверьте правильность подключения volume.
+
+*Приведите ответ в виде получившегося yaml файла.*
+
+# Ответ:
+```
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.app  }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ .Values.app  }}
+  replicas: {{ .Values.replicas  }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.app  }}
+    spec:
+      securityContext:
+        runAsUser: 0
+      volumes:
+        - name: test-volume
+          hostPath:
+            path: /var/log
+            type: DirectoryOrCreate
+      containers:
+      - name: master
+        image: {{ .Values.repository }}:{{ .Values.tag  }}
+        env:
+         - name: REDIS_PASSWORD
+           value: {{ .Values.REDIS_PASSWORD  }}
+        ports:
+        - containerPort: {{ .Values.database.port  }}
+        volumeMounts:
+          - name: test-volume
+            mountPath: /log
+```
