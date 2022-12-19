@@ -9,4 +9,5 @@
 
 # Ответ:
 
-[playbook1](playbook1.yml)
+1. [playbook1.yml](playbook1.yml)  
+![pic1](1.PNG)  
