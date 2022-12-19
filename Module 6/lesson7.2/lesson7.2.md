@@ -11,12 +11,15 @@
 # Ответ
 
 1. [playbook1.yml](playbook1.yml)  
+
 ![pic1](1.PNG)  
 
-2. [playbook2.yml](playbook2.yml)  
+2. [playbook2.yml](playbook2.yml)
+ 
 ![pic2](2.PNG)  
 
-3. [playbook3.yml](playbook3.yml)  
+3. [playbook3.yml](playbook3.yml) 
+
 ![pic3](3.PNG)
 
 # Задание 2  
@@ -29,4 +32,5 @@ Playbook должен в качестве приветствия установ�
 
 # Ответ  
 [playbook4.yml](playbook4.yml)  
+
 ![pic4](4.PNG)
