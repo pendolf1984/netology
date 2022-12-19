@@ -11,3 +11,7 @@
 
 1. [playbook1.yml](playbook1.yml)  
 ![pic1](1.PNG)  
+
+2. [playbook2.yml](playbook2.yml)  
+![pic1](1.PNG)  
+

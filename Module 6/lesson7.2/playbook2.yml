@@ -1,0 +1,17 @@
+---
+- name: Playbook2
+  hosts: all
+  become: true
+  tasks:
+    - name: APT UPDATE
+      apt:
+        update_cache: yes
+    - name: Install tuned
+      apt:
+        name: tuned
+        state: present
+    - name: Enable and autorun tuned
+      systemd:
+        state: started
+        name: tuned
+        enabled: yes
