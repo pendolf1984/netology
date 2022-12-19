@@ -1,0 +1,11 @@
+---
+- name: Playbook3
+  hosts: all
+  become: true
+
+  vars:
+    - greeting: "Hello, and welcome to"
+
+  tasks:
+      - name: Change motd
+        shell: echo "{{ greeting  }} {{ ansible_facts['fqdn'] }}" > /etc/motd
