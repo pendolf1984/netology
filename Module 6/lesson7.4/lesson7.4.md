@@ -116,5 +116,4 @@ output "external_ip_address_vm_1" {
 [template](index.html.j2)  
 [hosts](hosts)  
 
-[pic1](1.PNG)
-
+![pic1](1.PNG)
