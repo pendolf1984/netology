@@ -109,11 +109,30 @@ output "external_ip_address_vm_1" {
 
 ---
 
-# Ответ
+## Ответ
 
-[main.tf](main.tf)  
-[playbook.yml](playbook.yml)  
-[template](index.html.j2)  
-[hosts](hosts)  
+[main.tf](1/main.tf)  
+[playbook.yml](1/playbook.yml)  
+[template](1/index.html.j2)  
+[hosts](1/hosts)  
 
-![pic1](1.PNG)
+![pic1](1/1.PNG)
+
+---
+
+## Задание 2*
+
+**Выполните действия, приложите скриншот скриптов, скриншот выполненного проекта.**
+
+1. Перестроить инфраструктуру и добавить в неё вторую виртуальную машину.
+2. Установить на вторую виртуальную машину базу данных.
+3. Выполнить проверку состояния запущенных служб через Ansible.
+
+## Ответ
+
+[main.tf](2/main.tf)  
+[playbook.yml](2/playbook.yml)  
+[template](2/index.html.j2)  
+[hosts](2/hosts)  
+
+![pic2](2/2.PNG)

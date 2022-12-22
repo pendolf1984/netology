@@ -1,8 +1,13 @@
-- hosts: all
+---
+- name: Install web server
+  hosts: web
   remote_user: user
   become: true
+  vars_files:
+    - vars.yml
   vars:
     webserver_message: "I'm running"
+    ansible_ssh_private_key_file: "{{ key }}"
   tasks:
     - name: Install epel-repo
       yum:
