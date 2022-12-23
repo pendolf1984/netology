@@ -1,0 +1,6 @@
+---
+- name: Playbook 5
+  hosts: all
+  become: true
+  roles:
+    - my_role
