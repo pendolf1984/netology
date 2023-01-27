@@ -16,10 +16,12 @@ apt install postgresql
 sudo -u postgres createuser --pwprompt zabbix
 sudo -u postgres createdb -O zabbix zabbix
 zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
-vim /etc/zabbix/zabbix_server.conf (стркоа DBPassword)
+vim /etc/zabbix/zabbix_server.conf (строка DBPassword)
 systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
 ```  
+
+---
 
 ### Задание 2  
 
@@ -28,3 +30,19 @@ systemctl enable zabbix-server zabbix-agent apache2
 *Приложите скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу. Приложите скриншот лога zabbix agent, где видно, что он работает с сервером. Приложите скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные. Приложите текст использованных команд в GitHub.*  
 
 ### Ответ:  
+
+![pic2](2.PNG)  
+![pic3](3.PNG)  
+![pic4](5.PNG)  
+![pic5](6.PNG)  
+![pic6](4.PNG)  
+
+```
+apt install zabbix-agent
+sed -i 's/Server=127.0.0.1/Server=10.40.17.107'/g' /etc/zabbix/zabbix_server.conf
+systemctl start zabbix-agent
+systemctl enable zabbix-agent
+```  
+
+---  
+
