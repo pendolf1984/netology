@@ -32,9 +32,9 @@ systemctl enable zabbix-server zabbix-agent apache2
 ### Ответ:  
 
 ![pic2](2.PNG)  
-![pic3](3.PNG)  
 ![pic4](5.PNG)  
 ![pic5](6.PNG)  
+![pic3](3.PNG)  
 ![pic6](4.PNG)  
 
 ```
