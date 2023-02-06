@@ -147,7 +147,7 @@ else: # Во всех остальных случаях
 *Приложите в Git файлы Vagrantfile и zabbix-agent.sh.*  
 
 ### Ответ:  
-[Vagrantfile](Vagrantfile)
+[Vagrantfile](Vagrantfile)  
 [zabbix-agent.sh](zabbix-agent.sh)
 
 
