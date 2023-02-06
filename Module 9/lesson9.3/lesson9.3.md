@@ -86,6 +86,45 @@ fi
 
 ![Pic6_2](6_2.PNG)  
 
----
+---  
+
+### Задание 7*
+
+Доработайте Python-скрипт из лекции, создайте для него UserParameter и прикрепите его к созданному вами ранее шаблону. Скрипт должен:
+
+* при получении 1 возвращать ваши ФИО,
+* при получении 2 возвращать текущую дату,
+* делать всё, что делал скрипт из лекции.
+
+*Приложите код скрипта в Git. Приложите в Git скриншот Latest data с результатом работы скрипта на Python, чтобы были видны результаты работы скрипта при отправке в него 1, 2, -ping, а также -simple_print.*  
+
+### Ответ:  
+
+```
+import sys
+import os
+import re
+from datetime import date
+today = date.today()
+if (sys.argv[1] == '-ping'): # Если -ping
+  result=os.popen("ping -c 1 " + sys.argv[2]).read() # Делаем пинг по заданному адресу
+  result=re.findall(r"time=(.*) ms", result) # Выдёргиваем из результата время
+  print(result[0]) # Выводим результат в консоль
+elif (sys.argv[1] == '-simple_print'): # Если simple_print
+  print(sys.argv[2]) # Выводим в консоль содержимое sys.arvg[2]
+elif (sys.argv[1] == '1'):
+  print(f"Burmistrov Oleg Vladimirovich")
+elif (sys.argv[1] == '2'):
+  print(f"{today}")
+else: # Во всех остальных случаях
+  print(f"unknown input: {sys.argv[1]}") #Выводим непонятый запрос в консоль.
+```
+![Pic7_1](7_1.PNG)  
+![Pic7_2](7_2.PNG)  
+![Pic7_3](7_3.PNG)  
+![Pic7_4](7_4.PNG)  
+
+
+
 
 
