@@ -21,3 +21,10 @@
 ### Ответ
 Сетевые службы:
 ![Pic1](network.PNG)
+Уязвимости:
+* https://www.exploit-db.com/exploits/7701  
+* https://www.exploit-db.com/exploits/40963 
+* https://www.exploit-db.com/exploits/16701  
+
+---
+
