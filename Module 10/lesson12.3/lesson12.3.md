@@ -14,7 +14,7 @@
 
 ### Ответ:  
 
-``` select rental_date, amount from rental right join payment on rental.rental_id = payment.payment_id WHERE rental_date BETWEEN '2005-06-15' and '2005-06-18' and amount > 10.00 ``` 
+``` select payment_date, amount from payment WHERE payment_date BETWEEN '2005-06-15' and '2005-06-18 23:59:59.999' and amount > 10.00 ``` 
 
 ---
 
@@ -39,4 +39,4 @@
 
 ### Ответ:  
 
-``` select replace(lower(first_name),'ll','pp'), lower(last_name) from customer where active = 1 and first_name like 'K%' or first_name like 'W%' ```  
+``` select replace(lower(first_name),'ll','pp'), lower(last_name) from customer where active = 1 and first_name like 'Kelly' or first_name like 'Willie' ```  
