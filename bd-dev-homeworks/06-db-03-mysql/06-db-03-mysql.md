@@ -21,3 +21,66 @@
 
 ![1](https://github.com/pendolf1984/netology/blob/main/bd-dev-homeworks/06-db-03-mysql/1.PNG)
 
+![1.1](https://github.com/pendolf1984/netology/blob/main/bd-dev-homeworks/06-db-03-mysql/1.1.PNG)  
+
+---  
+
+## Задача 2
+
+Создайте пользователя test в БД c паролем test-pass, используя:
+
+- плагин авторизации mysql_native_password
+- срок истечения пароля — 180 дней 
+- количество попыток авторизации — 3 
+- максимальное количество запросов в час — 100
+- аттрибуты пользователя:
+    - Фамилия "Pretty"
+    - Имя "James".
+
+Предоставьте привелегии пользователю `test` на операции SELECT базы `test_db`.
+    
+Используя таблицу INFORMATION_SCHEMA.USER_ATTRIBUTES, получите данные по пользователю `test` и 
+**приведите в ответе к задаче**.  
+
+## Ответ:  
+
+![2](https://github.com/pendolf1984/netology/blob/main/bd-dev-homeworks/06-db-03-mysql/2.PNG)  
+
+---  
+
+## Задача 3
+
+Установите профилирование `SET profiling = 1`.
+Изучите вывод профилирования команд `SHOW PROFILES;`.
+
+Исследуйте, какой `engine` используется в таблице БД `test_db` и **приведите в ответе**.
+
+Измените `engine` и **приведите время выполнения и запрос на изменения из профайлера в ответе**:
+- на `MyISAM`,
+- на `InnoDB`.
+
+## Ответ:  
+
+![3.1](https://github.com/pendolf1984/netology/blob/main/bd-dev-homeworks/06-db-03-mysql/3.1.PNG)  
+
+![3.2](https://github.com/pendolf1984/netology/blob/main/bd-dev-homeworks/06-db-03-mysql/3.2.PNG)  
+
+---
+
+## Задача 4 
+
+Изучите файл `my.cnf` в директории /etc/mysql.
+
+Измените его согласно ТЗ (движок InnoDB):
+
+- скорость IO важнее сохранности данных;
+- нужна компрессия таблиц для экономии места на диске;
+- размер буффера с незакомиченными транзакциями 1 Мб;
+- буффер кеширования 30% от ОЗУ;
+- размер файла логов операций 100 Мб.
+
+Приведите в ответе изменённый файл `my.cnf`.  
+
+## Ответ:  
+
+![4](https://github.com/pendolf1984/netology/blob/main/bd-dev-homeworks/06-db-03-mysql/4.PNG)  
